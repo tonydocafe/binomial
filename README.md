@@ -1,17 +1,17 @@
-# Calculadora de Probabilidades Binomiais
+Binomial Probability Calculator
 
-Este script em Python permite calcular probabilidades binomiais utilizando a distribuição cumulativa de probabilidade (CDF) e a função de massa de probabilidade (PMF). Ele fornece opções para calcular probabilidades de no máximo, pelo menos e exatamente um número específico de sucessos em uma amostra.
+This Python script allows you to calculate binomial probabilities using the cumulative probability distribution (CDF) and the probability mass function (PMF). It provides options to calculate probabilities of at most, at least, and exactly a specified number of successes in a sample.
 
-## 📌 Funcionalidades
+## 📌 Features
 
-- **Probabilidade de no máximo k**: `P(X ≤ k)`
-- **Probabilidade de pelo menos k**: `P(X ≥ k)`
-- **Probabilidade de exatamente k**: `P(X = k)`
-- Opção para redefinir os valores da população e da probabilidade de sucesso.
+- **Probability of at most k**: `P(X ≤ k)`
+- **Probability of at least k**: `P(X ≥ k)`
+- **Probability of exactly k**: `P(X = k)`
+- Option to reset population and success probability values.
 
-## 📥 Requisitos
+## 📥 Requirements
 
-Antes de executar o script, certifique-se de ter a biblioteca `scipy` instalada. Se necessário, instale com:
+Before running the script, make sure you have the `scipy` library installed. If necessary, install it with:
 
 ```sh
 pip install scipy
